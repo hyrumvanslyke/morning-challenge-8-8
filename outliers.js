@@ -9,9 +9,9 @@ function outliers(a){
         }
     }
     if(evens.length > odds.length){// if even is the bigger array return odds 
-        return odds
+        return odds.join('')
     }else {// if odd is bigger return even
-        return evens 
+        return evens.join('')
     }
 }
 console.log(outliers([2, 4, 0, 100, 4, 11, 2602, 36]))// logged for testing
